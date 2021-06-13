@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="40sp"
+        android:layout_height="wrap_content"
+        android:text="@string/state"
+        android:layout_weight="1"
+        android:textColor="@color/dark_red"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvConfirmed"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/confirmed"
+        android:gravity="left"
+        android:textColor="@color/dark_blue" />
+
+    <TextView
+        android:id="@+id/tvActive"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:text="@string/active"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textColor="@color/dark_green" />
+
+    <TextView
+        android:id="@+id/tvRecovered"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/recovered"
+        android:textColor="@color/dark_yellow" />
+    <TextView
+        android:id="@+id/tvDeaths"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/deaths"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
